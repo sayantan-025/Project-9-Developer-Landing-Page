@@ -1,0 +1,326 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Poppins", sans-serif;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	position: relative;
+}
+
+/* ######## Header Starts ########  */
+
+header {
+	background-color: #4617fe;
+	height: 45vh;
+	padding: 0 3.5rem;
+}
+
+/* ######### Navigation Bar Starts ######### */
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	padding-top: 1.5rem;
+}
+
+/* ####### Navigation items Starts ####### */
+
+.nav-item {
+	padding-right: 2rem;
+	font-size: 1.6rem;
+	color: #fff;
+}
+
+.nav-item-active {
+	padding: 0.3rem 0.8rem;
+	font-size: 1.3rem;
+	color: #4617fe;
+	background-color: #fff;
+	text-align: center;
+}
+
+/* ####### Text ####### */
+
+.header-text {
+	margin-top: 5rem;
+	color: #fff;
+}
+
+.header-text h2 {
+	font-size: 3rem;
+}
+
+.header-text p {
+	font-size: 1.3rem;
+	margin-top: 1.3rem;
+}
+
+/* ######### Image ######### */
+
+.header-image {
+	position: absolute;
+	right: 0;
+	top: 7rem;
+
+	height: 35rem;
+}
+
+/* ######## Companies ######## */
+
+.companies {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 50%;
+	padding: 0 3.5rem;
+}
+
+.company-items {
+	text-decoration: none;
+	font-size: 2rem;
+	color: #000;
+	font-weight: bold;
+	margin-top: 1.5rem;
+}
+
+/* ########  API Section ####### */
+
+.api {
+	padding: 0 3.5rem;
+	margin-top: 5rem;
+}
+
+.api-heading {
+	font-size: 3rem;
+}
+
+/* ####### Cards ######## */
+
+.cards {
+	margin-top: 5rem;
+	margin-left: 2rem;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+/* ######## Card 01 ######## */
+
+.card-active {
+	background-color: #fff;
+	border-radius: 2rem;
+	box-shadow: 0.5rem 0.5rem 1rem rgb(168 157 157 / 36%);
+	padding: 1rem;
+}
+
+.card-head-active {
+	color: #5a31fc;
+	font-size: 1.9em;
+	margin-top: 1.7rem;
+}
+
+.card-body {
+	font-size: 1.4rem;
+}
+
+/* ######### Card 02,03,04,05 ######### */
+
+.card-head {
+	font-size: 1.9em;
+	margin-top: 1.7rem;
+}
+
+/* ####### Blog Section ######## */
+
+.blog-heading h1 {
+	font-size: 3rem;
+	padding: 0 3.5rem;
+	margin-top: 5rem;
+}
+
+/* ######## Blog ######### */
+
+.blog-cards {
+	padding: 0 3.5rem;
+	margin-top: 5rem;
+	height: 30rem;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+/* ######## Blog Card 01,02 ######### */
+
+.blog-card {
+	display: flex;
+
+	position: relative;
+
+	background-color: #fff;
+	border-radius: 2rem;
+	box-shadow: 0.5rem 0.5rem 1rem rgb(168 157 157 / 36%);
+	padding: 1.3rem;
+
+	width: 46.5vw;
+}
+
+.blog-content {
+	margin-left: 4rem;
+	margin-top: 3rem;
+}
+
+.blog-content h6 {
+	font-size: 1.2rem;
+	color: #5a31fc;
+	margin-bottom: 1.5rem;
+}
+
+.blog-content h3 {
+	font-size: 2rem;
+	font-weight: bold;
+	margin-bottom: 1.5rem;
+}
+
+.blog-content small {
+	font-size: 1.2rem;
+}
+
+.blog-card-bottom-image {
+	position: absolute;
+	left: 67%;
+	bottom: -5%;
+}
+
+.blog-author {
+	position: absolute;
+	left: 75%;
+	bottom: 0%;
+}
+
+/* ######### FAQ Section ######### */
+.faq-section {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 7rem;
+	background-color: #e9edff;
+}
+
+.faq-content {
+	padding: 0 3.5rem;
+	margin-top: 5rem;
+}
+
+.faq-content h2 {
+	font-size: 3rem;
+	margin-bottom: 1.5rem;
+}
+
+.faq-content h4 {
+	font-size: 1.2rem;
+	margin-bottom: 1.5rem;
+}
+
+.faq-content button {
+	background-color: #5a31fc;
+	border: none;
+	color: #fff;
+	padding: 1rem 2.3rem;
+}
+
+/* ######### Download ####### */
+
+.download-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 0 3.5rem;
+	margin-top: 5rem;
+}
+
+.download-content span {
+	font-weight: lighter;
+}
+
+.download-email {
+	padding: 1rem 1rem;
+	background-color: #e9edff;
+	border-radius: 7rem;
+
+	width: 50%;
+}
+
+.download-email form {
+	display: flex;
+	justify-content: space-between;
+}
+
+.download-email form input {
+	border: none;
+	background-color: transparent;
+	color: #000;
+	font-weight: bold;
+	width: 40%;
+	margin-left: 3rem;
+}
+
+.download-email form button {
+	border: none;
+	background-color: #5a31fc;
+	color: #fff;
+	padding: 1rem 2.3rem;
+	border-radius: 7rem;
+}
+
+/* ####### Footer Section ######## */
+
+.footer-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #4718fe;
+	padding: 5rem 3.5rem;
+	margin-top: 5rem;
+}
+
+.list {
+	list-style-type: none;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	font-size: 1.2rem;
+	margin-top: 2rem;
+}
+
+.list-items {
+	margin-right: 2rem;
+}
+
+.footer-logos {
+	margin-right: 0.5rem;
+}
+
+.logos-list {
+	list-style-type: none;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #fff;
+	font-size: 1.2rem;
+	margin-top: 2rem;
+}
